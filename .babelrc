@@ -1,0 +1,6 @@
+{
+  "presets": ["@babel/preset-react", "@babel/preset-env"]
+  // The problem seems to be coming from the new version of babel, which has a conflict with other babel plugins.
+  // I got the error to go away by commenting out the plugins in the .babelrc file
+  // "plugins": ["@babel/plugin-proposal-class-properties"]
+}

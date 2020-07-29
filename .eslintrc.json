@@ -4,7 +4,7 @@
     "plugin:import/errors",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
-    //this should have to go down!
+    //this should have to go down to so everything work properly!
     "prettier",
     "prettier/react"
   ],
@@ -15,6 +15,7 @@
     "react-hooks/exhaustive-deps": 1
   },
   "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module",
